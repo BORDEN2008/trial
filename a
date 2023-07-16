@@ -1,0 +1,3 @@
+import praw.models.util
+for useragent in praw.models.util.USER_AGENT_CHOICES:
+    print(useragent)
